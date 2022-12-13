@@ -1,0 +1,113 @@
+@import url("https://fonts.cdnfonts.com/css/redaction");
+@import url("https://use.typekit.net/rtj3zdh.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.max-w-8xl {
+  max-width: 90rem;
+}
+
+.dark-slate {
+  background: rgba(253, 251, 248, 0.05);
+  backdrop-filter: blur(0.5px);
+}
+
+.home-background {
+  position: relative;
+}
+.home-background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #d9d9d9;
+  background-image: url(background.png);
+  filter: brightness(50%);
+}
+
+.text-neutral-white {
+  color: #fdfbf8;
+}
+
+.fill-neutral-white {
+  fill: #fdfbf8;
+}
+
+.text-primary-black {
+  color: #050810;
+}
+
+.fill-primary-black {
+  color: #050810;
+}
+
+.w-12\.8 {
+  width: 12.8px;
+}
+
+.h-12\.8 {
+  height: 12.8px;
+}
+
+.text-shinjuku-school-header {
+  font-size: 64px;
+  line-height: 1;
+}
+
+.text-shinjuku-school-subheader {
+  font-size: 40px;
+  line-height: 42px;
+}
+
+.low-redaction {
+  font-family: "Redaction 10", sans-serif;
+}
+.medium-redaction {
+  font-family: "Redaction 20", sans-serif;
+}
+
+.high-redaction {
+  font-family: "Redaction 35", sans-serif;
+}
+
+.text-shinjuku-content {
+  line-height: 24.4px;
+  font-family: questa-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-shinjuku-profile-title {
+  line-height: 19px;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: "Eyebrow/Caption";
+}
+
+.text-shinjuku-profile-name {
+  line-height: 17px;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: questa-sans, sans-serif;
+  font-style: "Regular";
+}
+
+#__next {
+  min-height: 100%;
+}
+
+.text-shinjuku-school-quote {
+  font-size: 120px;
+  line-height: 156px;
+}
+
+.shinjuku-primary-black {
+  color: #050810;
+}
+
+.shinjuku-primary-blue {
+  color: #0412ea;
+}
